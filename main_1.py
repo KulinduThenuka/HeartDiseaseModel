@@ -19,7 +19,7 @@ os.makedirs('models', exist_ok=True)
 os.makedirs('graphs', exist_ok=True)
 os.makedirs('scalers', exist_ok=True)
 
-print("🚀 Starting Heart Disease Prediction Model Pipeline...")
+print("🚀 Starting Heart Disease Prediction Model Pipeline....")
 
 # 1. Load dataset
 df = pd.read_csv('heart.csv')
